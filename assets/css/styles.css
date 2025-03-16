@@ -4,6 +4,7 @@ body {
     background-color: #ffffff;
     color: #333333;
     line-height: 1.6;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -40,6 +41,12 @@ header {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:focus {
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
 }
 
 @media (max-width: 768px) {
@@ -98,6 +105,7 @@ nav a:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     opacity: 0;
     transform: translateY(20px);
+    will-change: opacity, transform;
 }
 
 .footer {
@@ -138,11 +146,12 @@ nav a:hover {
 .social-icons img {
     width: 40px;
     height: 40px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-.social-icons img:hover {
+social-icons img:hover {
     transform: scale(1.4);
+    filter: brightness(1.2);
 }
 
 .fade-in {
