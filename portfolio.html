@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Raviteja Kamisetti showcasing projects and work.">
+    <meta name="keywords" content="Portfolio, Projects, Raviteja Kamisetti">
+    <meta name="author" content="Raviteja Kamisetti">
+    <title>Portfolio - Raviteja Kamisetti</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Raviteja Logo">
+        </div>
+        <nav class="navbar" aria-label="Main Navigation">
+            <button class="navbar-toggle" aria-label="Toggle navigation">☰</button>
+            <div class="navbar-links">
+                <a href="index.html#about">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section id="portfolio" class="section animate">
+            <h2>Portfolio</h2>
+            <p>Check out some of my work below:</p>
+            <ul>
+                <li>Project 1</li>
+                <li>Project 2</li>
+                <li>Project 3</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; <span id="copyright-year"></span> Raviteja. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/animations.js"></script>
+    <script>
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
