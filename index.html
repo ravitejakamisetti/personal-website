@@ -44,8 +44,12 @@
         </section>
     </div>
     <footer class="footer">
-        <p>&copy; 2023 Raviteja. All rights reserved.</p>
+        <p>Contact: <a href="mailto:raviteja@example.com">raviteja@example.com</a> | Phone: +1234567890</p>
+        <p>&copy; <span id="copyright-year"></span> Raviteja. All rights reserved.</p>
     </footer>
     <script src="assets/js/animations.js"></script>
+    <script>
+        document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
