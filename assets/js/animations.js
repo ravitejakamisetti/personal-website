@@ -18,4 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         observer.observe(element);
     });
+
+    document.querySelector('.navbar-toggle').addEventListener('click', () => {
+        document.querySelector('.navbar-links').classList.toggle('active');
+    });
 });
