@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const elementsToAnimate = document.querySelectorAll('.animate');
+    const elementsToAnimate = document.querySelectorAll('.animate, #about-contact');
     const navbarToggle = document.querySelector('.navbar-toggle');
     const navbarLinks = document.querySelector('.navbar-links');
 
