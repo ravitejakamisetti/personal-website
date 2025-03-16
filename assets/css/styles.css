@@ -166,3 +166,8 @@ header {
 .contact-section p {
     margin-bottom: 15px;
 }
+
+p {
+    text-align: justify;
+    width: 100%;
+}
