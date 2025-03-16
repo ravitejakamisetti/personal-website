@@ -51,6 +51,7 @@ header {
 
 .navbar-links a:hover {
     transform: scale(1.1);
+    color: #0056b3; 
 }
 
 @media (max-width: 768px) {
@@ -90,6 +91,7 @@ header {
     opacity: 0;
     transform: translateY(20px);
     will-change: opacity, transform;
+    animation: fadeIn 0.5s ease forwards;
 }
 
 .section.fade-in {
@@ -211,4 +213,14 @@ p {
 
 #blog ul li a:hover {
     color: #0056b3;
+}
+
+.blog-post-box {
+    background: #f9f9f9;
+    padding: 25px; 
+    margin: 25px auto; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 1000px;
+    line-height: 1.8; 
 }
