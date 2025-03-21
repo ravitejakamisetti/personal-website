@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Portfolio website of Raviteja Kamisetti, a passionate developer creating elegant and functional websites.">
     <meta name="keywords" content="Raviteja Kamisetti, Portfolio, Developer, Web Development">
     <meta name="author" content="Raviteja Kamisetti">
@@ -11,51 +11,53 @@
     <link rel="icon" href="assets/images/favicon.ico">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="assets/images/logo.png" alt="Raviteja Logo">
-        </div>
-        <nav class="navbar" aria-label="Main Navigation">
-            <button class="navbar-toggle" aria-label="Toggle navigation">☰</button>
-            <div class="navbar-links">
-                <a href="#about">About Me</a>
-                <a href="assets/CV.pdf" target="_blank" aria-label="View My CV">My CV</a>
-                <a href="blog.html">My Blog</a>
-                <a href="mailto:contact.ravi@icloud.com" aria-label="Contact via Email">Contact Me</a>
+    <div class="page-wrapper">
+        <header>
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Raviteja Logo">
             </div>
-        </nav>
-    </header>
-    <main class="container">
-        <section id="about-contact" class="section">
-            <div class="about-contact-wrapper">
-                <div class="left-container">
-                    <div class="about-image">
-                        <img src="assets/images/profile.jpeg" alt="Raviteja's Picture">
+            <nav class="navbar" aria-label="Main Navigation">
+                <button class="navbar-toggle" aria-label="Toggle navigation">☰</button>
+                <div class="navbar-links">
+                    <a href="#about">About Me</a>
+                    <a href="assets/CV.pdf" target="_blank" aria-label="View My CV">My CV</a>
+                    <a href="blog.html">My Blog</a>
+                    <a href="mailto:contact.ravi@icloud.com" aria-label="Contact via Email">Contact Me</a>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <section id="about-contact" class="section">
+                <div class="about-contact-wrapper">
+                    <div class="left-container">
+                        <div class="about-image">
+                            <img src="assets/images/profile.jpeg" alt="Raviteja's Picture">
+                        </div>
+                        <div class="contact-section">
+                            <p>Feel free to reach out via email. I look forward to connecting with you!</p>
+                            <div class="social-icons animate">
+                                <a href="mailto:contact.ravi@icloud.com" aria-label="Email">
+                                    <img src="assets/images/email.png" alt="Email">
+                                </a>
+                                <a href="https://www.linkedin.com/in/ravitejakamisetti" target="_blank" aria-label="LinkedIn">
+                                    <img src="assets/images/linkedin.png" alt="LinkedIn">
+                                </a>
+                                <a href="https://github.com/ravitejakamisetti" target="_blank" aria-label="GitHub">
+                                    <img src="assets/images/github.png" alt="GitHub">
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="contact-section">
-                        <p>Feel free to reach out via email. I look forward to connecting with you!</p>
-                        <div class="social-icons animate">
-                            <a href="mailto:contact.ravi@icloud.com" aria-label="Email">
-                                <img src="assets/images/email.png" alt="Email">
-                            </a>
-                            <a href="https://www.linkedin.com/in/ravitejakamisetti" target="_blank" aria-label="LinkedIn">
-                                <img src="assets/images/linkedin.png" alt="LinkedIn">
-                            </a>
-                            <a href="https://github.com/ravitejakamisetti" target="_blank" aria-label="GitHub">
-                                <img src="assets/images/github.png" alt="GitHub">
-                            </a>
+                    <div class="right-container">
+                        <div class="about-me">
+                            <h2 class="animate">About Me</h2>
+                            <p>Born in Rajamahendravaram and raised by a family of entrepreneurs, I am Kamisetti Ravi Teja, deeply inspired by the entrepreneurial spirit that permeated my upbringing. My grandfather’s successful wholesale textile business and my uncle’s continued pursuit of the family legacy instilled in me a profound passion for business. Drawing inspiration from my parents’ unwavering dedication to service, I was driven to embark on a life of freedom and contribute positively to society. Raised in Visakhapatnam, my academic journey was fueled by an insatiable curiosity. This curiosity led me to pursue a master’s degree in Chemistry at CEBS, Mumbai, and a transformative research project at TIFR, where I contributed to groundbreaking cancer research. These experiences honed my analytical acumen and cultivated my teamwork skills. Following my graduation, I joined my uncle’s business, gaining invaluable management skills. I recognized the pivotal role of marketing and inventory management in the textile industry and developed a keen interest in pursuing a career in management and entrepreneurship, where I could seamlessly integrate my scientific knowledge with business acumen.</p>
                         </div>
                     </div>
                 </div>
-                <div class="right-container">
-                    <div class="about-me">
-                        <h2 class="animate">About Me</h2>
-                        <p>Born in Rajamahendravaram and raised by a family of entrepreneurs, I am Kamisetti Ravi Teja, deeply inspired by the entrepreneurial spirit that permeated my upbringing. My grandfather’s successful wholesale textile business and my uncle’s continued pursuit of the family legacy instilled in me a profound passion for business. Drawing inspiration from my parents’ unwavering dedication to service, I was driven to embark on a life of freedom and contribute positively to society. Raised in Visakhapatnam, my academic journey was fueled by an insatiable curiosity. This curiosity led me to pursue a master’s degree in Chemistry at CEBS, Mumbai, and a transformative research project at TIFR, where I contributed to groundbreaking cancer research. These experiences honed my analytical acumen and cultivated my teamwork skills. Following my graduation, I joined my uncle’s business, gaining invaluable management skills. I recognized the pivotal role of marketing and inventory management in the textile industry and developed a keen interest in pursuing a career in management and entrepreneurship, where I could seamlessly integrate my scientific knowledge with business acumen.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    </div>
     <footer class="footer">
         <p>&copy; <span id="copyright-year"></span> Ravi Teja Kamisetti. All rights reserved.</p>
     </footer>

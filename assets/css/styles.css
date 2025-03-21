@@ -75,6 +75,65 @@ header {
     .navbar-toggle {
         display: block;
     }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        background-color: #ffffff;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        z-index: 10;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    #about-contact {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .left-container, .right-container {
+        max-width: 100%;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-links a {
+        font-size: 14px;
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: 30px;
+    }
 }
 
 .container {
