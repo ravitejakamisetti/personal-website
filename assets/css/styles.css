@@ -119,6 +119,31 @@ header {
         flex-direction: column;
         gap: 10px;
     }
+
+    .about-contact-wrapper.vertical-layout {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-contact-wrapper .left-container,
+    .about-contact-wrapper .right-container {
+        width: 100%;
+    }
+
+    .about-contact-wrapper .about-image img {
+        max-width: 150px;
+        border-radius: 50%;
+    }
+
+    .about-contact-wrapper .contact-section {
+        margin: 20px 0;
+    }
+
+    .about-contact-wrapper .about-me {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 480px) {
