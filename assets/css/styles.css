@@ -159,6 +159,10 @@ header {
         width: 30px;
         height: 30px;
     }
+
+    p {
+        width: 90%;
+    }
 }
 
 .container {
