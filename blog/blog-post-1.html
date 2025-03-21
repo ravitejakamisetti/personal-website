@@ -27,6 +27,11 @@
     </header>
     <main class="container">
         <div class="blog-post-box">
+            <div class="rotating-pictures">
+                <img src="../assets/images/pic1.jpg" alt="Picture 1">
+                <img src="../assets/images/pic2.jpg" alt="Picture 2">
+                <img src="../assets/images/pic3.jpg" alt="Picture 3">
+            </div>
             <article class="blog-post">
                 <h1 class="animate">Blog Post 1</h1>
                 <p>Published on: <time datetime="2023-10-01">October 1, 2023</time></p>
@@ -40,6 +45,7 @@
         <p>&copy; <span id="copyright-year"></span> Ravi Teja Kamisetti. All rights reserved.</p>
     </footer>
     <script src="../assets/js/animations.js"></script>
+    <script src="../assets/js/rotating-pictures.js"></script>
     <script>
         document.getElementById('copyright-year').textContent = new Date().getFullYear();
     </script>
