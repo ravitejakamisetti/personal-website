@@ -7,6 +7,10 @@ body {
     scroll-behavior: smooth;
 }
 
+body.no-scroll {
+    overflow: hidden; /* Prevent scrolling when mobile menu is active */
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -80,27 +84,6 @@ header {
         height: 60px;
     }
 
-    .navbar-links {
-        display: none;
-        flex-direction: column;
-        background-color: #ffffff;
-        position: absolute;
-        top: 60px;
-        right: 10px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        z-index: 10;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-
-    .navbar-toggle {
-        display: block;
-    }
-
     #about-contact {
         flex-direction: column;
         gap: 10px;
@@ -128,10 +111,6 @@ header {
     }
 
     .about-contact-wrapper .left-container,
-    .about-contact-wrapper .right-container {
-        width: 100%;
-    }
-
     .about-contact-wrapper .right-container {
         width: 100%;
     }
