@@ -51,7 +51,7 @@ header {
 
 .navbar-links a:hover {
     transform: scale(1.1);
-    color: #0056b3; 
+    color: #b30000; 
 }
 
 @media (max-width: 768px) {
