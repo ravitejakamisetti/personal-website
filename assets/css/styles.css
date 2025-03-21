@@ -178,9 +178,9 @@ header {
 .section {
     padding: 20px;
     margin: 20px 0;
-    background: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: #eeeeee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     opacity: 0;
     transform: translateY(20px);
     will-change: opacity, transform;
@@ -210,7 +210,7 @@ header {
     padding: 10px 0;
     background: #ffffff;
     color: #333333;
-    border-top: 1px solid #eaeaea;
+    border-top: 1px solid #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,7 +224,7 @@ header {
 
 .social-icons {
     display: flex;
-    gap: 15px;
+    gap: 25px;
     justify-content: center;
 }
 
@@ -268,7 +268,7 @@ header {
 .about-image img {
     max-width: 100%;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-section {
@@ -309,7 +309,7 @@ p {
 }
 
 .blog-post-box {
-    background: #f9f9f9;
+    background: #eeeeee;
     padding: 25px; 
     margin: 25px auto; 
     border-radius: 10px;
