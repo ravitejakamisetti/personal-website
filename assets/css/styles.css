@@ -137,12 +137,12 @@ header {
     }
 
     .about-contact-wrapper .about-image img {
-        max-width: 150px;
-        border-radius: 50%;
+        max-width: 250px;
+        border-radius: 10%;
     }
 
     .about-contact-wrapper .contact-section {
-        margin: 20px 0;
+        margin: 10px 0;
     }
 
     .about-contact-wrapper .about-me {
@@ -165,12 +165,12 @@ header {
     }
 
     p {
-        width: 90%;
+        width: 100%;
     }
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
 }
