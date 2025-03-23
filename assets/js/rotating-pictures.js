@@ -5,8 +5,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
 
     setInterval(() => {
-        pictures[currentIndex].classList.remove('active');
+        if (pictures[currentIndex]) {
+            pictures[currentIndex].classList.remove('active');
+        }
         currentIndex = (currentIndex + 1) % pictures.length;
-        pictures[currentIndex].classList.add('active');
+        if (pictures[currentIndex]) {
+            pictures[currentIndex].classList.add('active');
+        }
     }, 3000); // Change picture every 3 seconds
 });

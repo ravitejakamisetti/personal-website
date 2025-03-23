@@ -18,8 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (navbarToggle && navbarLinks) {
         navbarToggle.addEventListener('click', () => {
-            navbarLinks.classList.toggle('active');
-            document.body.classList.toggle('no-scroll', navbarLinks.classList.contains('active'));
+            const isExpanded = navbarLinks.classList.toggle('active');
+            navbarToggle.setAttribute('aria-expanded', isExpanded);
+            document.body.classList.toggle('no-scroll', isExpanded);
         });
     }
 });
